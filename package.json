@@ -4,12 +4,23 @@
   "description": "Proyecto con Gulp, SASS y HTML",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:built/css"
   },
   "keywords": [
     "SASS",
     "Gulp"
   ],
   "author": "Regina Pelaez",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenjiYeyi/Festival-Musica.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RenjiYeyi/Festival-Musica/issues"
+  },
+  "homepage": "https://github.com/RenjiYeyi/Festival-Musica#readme",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
 }
